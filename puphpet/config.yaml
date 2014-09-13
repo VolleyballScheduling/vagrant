@@ -1,6 +1,8 @@
 ---
 vagrantfile-local:
     vm:
+#        box: zloesabo/symfony-server
+#        box_url: 'https://vagrantcloud.com/zloesabo/boxes/symfony-server/versions/1/providers/virtualbox.box'
         box: debian-wheezy72-x64-vbox43
         box_url: 'http://box.puphpet.com/ubuntu-precise12042-x64-vbox43.box'
         hostname: null
